@@ -1,3 +1,7 @@
+---
+title: Privacy Policy
+layout: default
+---
 # Privacy Policy for Secret Santa App
 
 This app collects participant names solely for organizing Secret Santa events. Names are used to randomly assign gift recipients and to display the list of participants within each event.
