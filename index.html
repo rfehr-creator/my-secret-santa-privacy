@@ -7,27 +7,176 @@
   <style>
     body {
       font-family: sans-serif;
-      max-width: 700px;
+      max-width: 800px;
       margin: 40px auto;
       padding: 0 20px;
       line-height: 1.6;
     }
-    h1 {
+    h1, h2 {
       color: #333;
+    }
+    h2 {
+      margin-top: 30px;
+    }
+    .section {
+      margin-bottom: 25px;
+    }
+    .highlight {
+      background-color: #f5f5f5;
+      padding: 15px;
+      border-left: 4px solid #333;
+      margin: 15px 0;
     }
   </style>
 </head>
 <body>
   <h1>Privacy Policy for Secret Santa App</h1>
+  
+  <p><strong>Last Updated:</strong> October 4, 2025</p>
+  
+  <div class="highlight">
+    <strong>Simple Summary:</strong> We only collect participant names to organize Secret Santa events. We don't track you, sell your data, or use analytics. You can delete your data anytime.
+  </div>
 
-  <p>This app collects participant names solely for organizing Secret Santa events. Names are used to randomly assign gift recipients and to display the list of participants within each event.</p>
+  <div class="section">
+    <h2>1. Information We Collect</h2>
+    
+    <h3>Personal Information:</h3>
+    <ul>
+      <li><strong>Names:</strong> Participant names you provide when creating or joining Secret Santa events</li>
+      <li><strong>Event Names:</strong> Names you give to Secret Santa events you create</li>
+    </ul>
+    
+    <h3>Technical Information:</h3>
+    <ul>
+      <li><strong>Device Identifier:</strong> A unique, anonymous identifier (UUID) generated on your device to associate your participation in events. This identifier contains no personal information and cannot be used to identify you personally.</li>
+      <li><strong>Event Data:</strong> Join codes, event creation timestamps, participant lists, and gift assignments</li>
+    </ul>
+    
+    <h3>Information We DO NOT Collect:</h3>
+    <ul>
+      <li>Email addresses or contact information</li>
+      <li>Location data or GPS coordinates</li>
+      <li>Device information beyond the anonymous identifier</li>
+      <li>Usage analytics or behavioral tracking data</li>
+      <li>Advertising identifiers</li>
+      <li>Photos, videos, or other media</li>
+      <li>Access to contacts, camera, microphone, or other device features</li>
+    </ul>
+  </div>
 
-  <p>Names are stored in a secure database and are the only personal details retained. No other personal information is collected.</p>
+  <div class="section">
+    <h2>2. How We Use Your Information</h2>
+    <p>We use the collected information solely to:</p>
+    <ul>
+      <li>Create and manage Secret Santa events</li>
+      <li>Display participant lists within events</li>
+      <li>Randomly assign gift recipients (Secret Santa matching)</li>
+      <li>Allow participants to view their assigned gift recipient</li>
+      <li>Manage event access through join codes</li>
+      <li>Enable event creators to control their events (draw names, refresh join codes)</li>
+    </ul>
+  </div>
 
-  <p>Users can remove their data at any time by deleting the event they created or participated in. This action permanently removes their name and associated data from the database.</p>
+  <div class="section">
+    <h2>3. Data Storage and Security</h2>
+    <ul>
+      <li><strong>Database Storage:</strong> Data is stored in a PostgreSQL database with access controls and security measures</li>
+      <li><strong>Network Security:</strong> All data transmission between the app and servers uses HTTPS encryption</li>
+      <li><strong>Local Storage:</strong> Your device identifier is stored securely on your device using encrypted storage (Expo SecureStore)</li>
+      <li><strong>Access Controls:</strong> Database access is restricted and protected by authentication mechanisms</li>
+      <li><strong>Data Minimization:</strong> We only store the minimum information necessary for app functionality</li>
+      <li><strong>Server Security:</strong> Our servers are hosted with security best practices including firewalls and access monitoring</li>
+    </ul>
+  </div>
 
-  <p>User data is never shared with third parties. The app does not use analytics, advertising, or external data services.</p>
+  <div class="section">
+    <h2>4. Data Sharing and Third Parties</h2>
+    <p><strong>We do not share, sell, or transfer your personal information to any third parties.</strong></p>
+    <ul>
+      <li>No advertising networks or analytics services</li>
+      <li>No social media integrations that share data</li>
+      <li>No data brokers or marketing companies</li>
+      <li>No external services beyond essential app infrastructure</li>
+    </ul>
+  </div>
 
-  <p>If you have questions or concerns, please contact rfk4plt@gmail.com.</p>
+  <div class="section">
+    <h2>5. Your Data Rights and Control</h2>
+    
+    <h3>Data Deletion:</h3>
+    <ul>
+      <li><strong>Leave Events:</strong> Remove yourself from any event, which permanently deletes your name from that event</li>
+      <li><strong>Delete Events:</strong> If you created an event, you can delete the entire event, removing all participant data</li>
+      <li><strong>Complete Removal:</strong> When you leave/delete events, your data is permanently removed from our servers</li>
+    </ul>
+    
+    <h3>Data Access:</h3>
+    <p>You can view all your data within the app by accessing the events you've created or joined.</p>
+    
+    <h3>Data Portability:</h3>
+    <p>Your data (participant names and event information) is always visible and accessible within the app.</p>
+  </div>
+
+  <div class="section">
+    <h2>6. Data Retention</h2>
+    <ul>
+      <li><strong>Active Events:</strong> Data is retained while events remain active</li>
+      <li><strong>Automatic Cleanup:</strong> Event data may be automatically removed after extended periods of inactivity</li>
+      <li><strong>User-Initiated Deletion:</strong> Data is immediately and permanently deleted when you choose to leave or delete events</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>7. Children's Privacy (COPPA/GDPR-K Compliance)</h2>
+    <p>This app does not knowingly collect personal information from children under 13 years of age. If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately, and we will delete such information.</p>
+  </div>
+
+  <div class="section">
+    <h2>8. International Data Transfers</h2>
+    <p>Your data is stored in PostgreSQL databases hosted in Canada. Data is transmitted securely using HTTPS encryption, though data at rest in the database is not encrypted. We ensure appropriate technical and organizational safeguards are in place for international data transfers in compliance with applicable privacy laws.</p>
+  </div>
+
+  <div class="section">
+    <h2>9. Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. We will notify users of any material changes by updating the "Last Updated" date. Your continued use of the app after any changes indicates your acceptance of the updated policy.</p>
+  </div>
+
+  <div class="section">
+    <h2>10. Legal Basis for Processing (GDPR)</h2>
+    <p>For users in the European Economic Area, we process your personal data based on:</p>
+    <ul>
+      <li><strong>Legitimate Interest:</strong> Providing Secret Santa event organization functionality</li>
+      <li><strong>Consent:</strong> When you provide your name to create or join events</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>11. Regional Privacy Rights</h2>
+    
+    <h3>California Residents (CCPA):</h3>
+    <p>You have the right to know what personal information we collect, delete your personal information, and opt-out of the sale of personal information (though we do not sell personal information).</p>
+    
+    <h3>European Residents (GDPR):</h3>
+    <p>You have rights including access, rectification, erasure, portability, and objection to processing of your personal data.</p>
+    
+    <h3>Other Regions:</h3>
+    <p>We respect privacy rights as required by applicable local laws.</p>
+  </div>
+
+  <div class="section">
+    <h2>12. Contact Information</h2>
+    <p>If you have any questions, concerns, or requests regarding this privacy policy or your personal data, please contact us at:</p>
+    <p><strong>Email:</strong> rfk4plt@gmail.com</p>
+    <p><strong>Subject Line:</strong> "Secret Santa App - Privacy Policy"</p>
+    
+    <p>We will respond to your inquiry within 30 days of receipt.</p>
+  </div>
+
+  <div class="section">
+    <h2>13. App Store Compliance</h2>
+    <p>This app complies with Google Play Store and Apple App Store privacy requirements. We do not engage in any practices that would violate app store policies regarding user privacy and data protection.</p>
+  </div>
+
 </body>
 </html>
